@@ -13,5 +13,6 @@ environment:
   NUGET_XMLDOC_MODE: skip
 
 build_script:
+  - appveyor AddMessage preinstall6sdk
   - install6sdk.cmd
   - appveyor.cmd
