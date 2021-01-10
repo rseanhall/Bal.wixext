@@ -10,19 +10,11 @@
     <BindInputPaths Include="$(OutputPath)netcoreapp3.1" />
     <BindInputPaths Include="$(OutputPath)net20" />
     <BindInputPaths Include="$(OutputPath)x86" BindName="x86" />
-    <BindInputPaths Include="$(OutputPath)x64" BindName="x64" />
-    <BindInputPaths Include="$(OutputPath)arm64" BindName="arm64" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\dnchost\dnchost.vcxproj" Properties="Platform=ARM64" />
-    <ProjectReference Include="..\mbahost\mbahost.vcxproj" Properties="Platform=ARM64" />
-    <ProjectReference Include="..\wixstdba\wixstdba.vcxproj" Properties="Platform=ARM64" />
     <ProjectReference Include="..\dnchost\dnchost.vcxproj" Properties="Platform=x86" />
     <ProjectReference Include="..\mbahost\mbahost.vcxproj" Properties="Platform=x86" />
     <ProjectReference Include="..\wixstdba\wixstdba.vcxproj" Properties="Platform=x86" />
-    <ProjectReference Include="..\dnchost\dnchost.vcxproj" Properties="Platform=x64" />
-    <ProjectReference Include="..\mbahost\mbahost.vcxproj" Properties="Platform=x64" />
-    <ProjectReference Include="..\wixstdba\wixstdba.vcxproj" Properties="Platform=x64" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Nerdbank.GitVersioning" Version="3.3.37" PrivateAssets="All" />
