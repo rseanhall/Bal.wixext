@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <RuntimeIdentifier>win-x86</RuntimeIdentifier>
+    <EnableDynamicLoading>true</EnableDynamicLoading>
+    <Description>WPF .NET Core MBA</Description>
+    <UseWPF>true</UseWPF>
+    <PublishTrimmed>true</PublishTrimmed>
+    <TrimMode>CopyUsed</TrimMode>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="Nerdbank.GitVersioning" Version="3.3.37" PrivateAssets="all" />
+    <PackageReference Include="WixToolset.Mba.Core" Version="4.0.45" />
+  </ItemGroup>
+</Project>
