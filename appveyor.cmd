@@ -4,7 +4,7 @@
 
 nuget restore || exit /b
 
-msbuild -p:Configuration=%_C% -Restore || exit /b
+msbuild -p:Configuration=%_C% -Restore -WarnAsError || exit /b
 msbuild -p:Configuration=%_C% src\test\examples\examples.proj || exit /b
 
 dotnet test -c %_C% --no-build src\test\WixToolsetTest.Bal || exit /b

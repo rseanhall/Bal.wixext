@@ -32,7 +32,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="WixBuildTools.TestSupport" Version="4.0.47" />
+    <PackageReference Include="WixBuildTools.TestSupport" Version="4.0.48" />
   </ItemGroup>
 
   <ItemGroup>
