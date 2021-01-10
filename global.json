@@ -3,6 +3,7 @@
     "WixToolset.Sdk": "4.0.0-build-0176"
   },
   "sdk": {
-    "allowPrerelease": false
+    "version": "6.0.100",
+    "allowPrerelease": true
   }
 }
