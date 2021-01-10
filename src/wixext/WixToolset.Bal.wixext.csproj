@@ -18,8 +18,8 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="all" />
-    <PackageReference Include="WixToolset.Data" Version="4.0.*" PrivateAssets="all" />
-    <PackageReference Include="WixToolset.Extensibility" Version="4.0.*" PrivateAssets="all" />
+    <PackageReference Include="WixToolset.Data" Version="4.0.178" PrivateAssets="all" />
+    <PackageReference Include="WixToolset.Extensibility" Version="4.0.110" PrivateAssets="all" />
   </ItemGroup>
 
   <ItemGroup>
