@@ -24,11 +24,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="WixToolset.Core" Version="4.0.463" />
-    <PackageReference Include="WixToolset.Core.Burn" Version="4.0.463" />
-    <PackageReference Include="WixToolset.Core.WindowsInstaller" Version="4.0.463" />
-    <PackageReference Include="WixToolset.Core.TestPackage" Version="4.0.463" />
-    <PackageReference Include="WixToolset.Data" Version="4.0.178" />
+    <PackageReference Include="WixToolset.Core" Version="4.0.462" />
+    <PackageReference Include="WixToolset.Core.Burn" Version="4.0.462" />
+    <PackageReference Include="WixToolset.Core.WindowsInstaller" Version="4.0.462" />
+    <PackageReference Include="WixToolset.Core.TestPackage" Version="4.0.462" />
+    <PackageReference Include="WixToolset.Data" Version="4.0.177" />
   </ItemGroup>
 
   <ItemGroup>
