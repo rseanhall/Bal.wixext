@@ -3,11 +3,15 @@
 [assembly: WixToolset.Mba.Core.BootstrapperApplicationFactory(typeof(Example.WPFCoreMBA.WPFCoreBAFactory))]
 namespace Example.WPFCoreMBA
 {
+    using System.Diagnostics.CodeAnalysis;
     using WixToolset.Mba.Core;
 
     public class WPFCoreBAFactory : BaseBootstrapperApplicationFactory
     {
         private static int loadCount = 0;
+
+        [DynamicDependency("GetFunctionPointer(System.IntPtr,System.IntPtr,System.IntPtr,System.IntPtr,System.IntPtr,System.IntPtr)", "Internal.Runtime.InteropServices.ComponentActivator", "System.Private.CoreLib")]
+        public WPFCoreBAFactory() { }
 
         protected override IBootstrapperApplication Create(IEngine engine, IBootstrapperCommand bootstrapperCommand)
         {
