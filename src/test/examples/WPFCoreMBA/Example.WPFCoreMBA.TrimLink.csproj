@@ -2,7 +2,6 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0-windows</TargetFramework>
-    <OutputType>Exe</OutputType>
     <RuntimeIdentifier>win-x86</RuntimeIdentifier>
     <EnableDynamicLoading>true</EnableDynamicLoading>
     <Description>WPF .NET Core MBA</Description>
