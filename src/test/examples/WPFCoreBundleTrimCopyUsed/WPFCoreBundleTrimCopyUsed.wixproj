@@ -1,8 +1,8 @@
 <!-- Copyright (c) .NET Foundation and contributors. All rights reserved. Licensed under the Microsoft Reciprocal License. See LICENSE.TXT file in the project root for full license information. -->
 <Project Sdk="WixToolset.Sdk">
     <ItemGroup>
-        <BindInputPaths Include="$(OutputPath)publish\Example.LatestCoreMBA.TrimCopyUsed" />
-        <HarvestDirectory Include="$(OutputPath)publish\Example.LatestCoreMBA.TrimCopyUsed">
+        <BindInputPaths Include="$(OutputPath)publish\Example.WPFCoreMBA.TrimCopyUsed" />
+        <HarvestDirectory Include="$(OutputPath)publish\Example.WPFCoreMBA.TrimCopyUsed">
             <DirectoryRefId>publish.Example.WPFCoreMBA.trimcopyused</DirectoryRefId>
             <Transforms>ba.xslt</Transforms>
         </HarvestDirectory>
