@@ -4,6 +4,7 @@
     <TargetFramework>net5.0-windows</TargetFramework>
     <RuntimeIdentifier>win-x86</RuntimeIdentifier>
     <EnableDynamicLoading>true</EnableDynamicLoading>
+    <AssemblyName>WixToolset.Dnc.Host</AssemblyName>
     <Description>WPF .NET Core MBA</Description>
     <UseWPF>true</UseWPF>
     <PublishTrimmed>true</PublishTrimmed>

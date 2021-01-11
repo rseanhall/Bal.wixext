@@ -233,7 +233,7 @@ static HRESULT InitializeCoreClr(
     }
     else
     {
-        ExitOnFailure(hr, "HostfxrGetRuntimeDelegate failed");
+        BalExitOnFailure(hr, "HostfxrGetRuntimeDelegate failed");
     }
 
 LExit:

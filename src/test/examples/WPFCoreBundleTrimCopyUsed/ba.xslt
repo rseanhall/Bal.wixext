@@ -11,7 +11,7 @@
         </xsl:copy>
     </xsl:template>
 
-    <xsl:template match="wix:Payload[@SourceFile='SourceDir\Example.WPFCoreMBA.TrimCopyUsed.dll']" >
+    <xsl:template match="wix:Payload[@SourceFile='SourceDir\WixToolset.Dnc.Host.dll']" >
         <xsl:copy>
             <xsl:attribute name="BAFactoryAssembly" namespace="http://wixtoolset.org/schemas/v4/wxs/bal">yes</xsl:attribute>
             <xsl:apply-templates select="@* | node()"/>
